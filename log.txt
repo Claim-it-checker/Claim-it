@@ -1,0 +1,2 @@
+
+log.txt has extra info about what is happening, if there is an error it can be helpfull

@@ -1,0 +1,19 @@
+checker title: Twitter Username Validator
+URL: https://x.com
+URL_USER: https://x.com/{USERNAME}
+
+Result.name: Available
+    if_have: This account doesn’t exist
+    if_have: Try searching for another.
+
+Result.name: Taken
+    cant_have: This account doesn’t exist
+    cant_have: Account suspended
+    if_redirects: true
+
+Result.name: Error
+    code: 404
+    code: 500
+
+Result.name: Rate_Limit
+    code: 429

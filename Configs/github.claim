@@ -1,0 +1,17 @@
+checker title: GitHub Username Checker
+URL: https://api.github.com
+URL_USER: https://api.github.com/users/{USERNAME}
+
+Result.name: Available
+    code: 404
+
+Result.name: Taken
+    code: 200
+
+Result.name: Error
+    code: 400
+    code: 500
+
+Result.name: Rate_Limit
+    code: 403
+    code: 429

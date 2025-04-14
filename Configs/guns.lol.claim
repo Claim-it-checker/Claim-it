@@ -1,0 +1,17 @@
+checker title: Guns.lol Username Checker
+URL: https://guns.lol
+URL_USER: https://guns.lol/{USERNAME}
+
+Result.name: Available
+    must_have: This user is not claimed
+
+Result.name: Taken
+    cant_have: This username is available
+
+Result.name: Error
+    code: 404
+    code: 403
+    if_redirects: true
+
+Result.name: Rate_Limit
+    code: 429

@@ -1,0 +1,17 @@
+checker title: Telegram Username Checker
+URL: https://t.me
+URL_USER: https://t.me/{USERNAME}
+
+Result.name: Available
+    if_have: If you have
+
+Result.name: Taken
+    cant_have: This channel does not exist
+
+Result.name: Error
+    code: 400
+    code: 500
+    must_have: error
+
+Result.name: Rate_Limit
+    code: 429

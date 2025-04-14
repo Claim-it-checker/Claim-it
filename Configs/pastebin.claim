@@ -1,0 +1,21 @@
+checker title: Pastebin Username Checker
+URL: https://pastebin.com
+URL_USER: https://pastebin.com/u/{USERNAME}
+
+Result.name: Available
+    if_have: The requested page does not exist.
+    if_have: Not Found
+    code: 404
+
+Result.name: Taken
+    if_have: has no public pastes.
+    if_have: 's Pastebin 
+    cant_have: The requested page does not exist.
+    code: 200
+
+Result.name: Error
+    code: 400
+    code: 500
+
+Result.name: Rate_Limit
+    code: 429

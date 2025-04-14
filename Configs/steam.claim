@@ -1,0 +1,20 @@
+checker title: Steam Username Checker
+URL: https://steamcommunity.com
+URL_USER: https://steamcommunity.com/id/{USERNAME}
+
+Result.name: Available
+    must_have: The specified profile could not be found.
+
+Result.name: Taken
+    if_have: This profile is private.
+    cant_have: The specified profile could not be found.
+    if_have: Currently Offline
+    if_have: Currently Online
+    if_redirects: false
+
+Result.name: Error
+    code: 400
+    code: 500
+
+Result.name: Rate_Limit
+    code: 429

@@ -1,0 +1,17 @@
+checker title: Minecraft Username Checker
+URL: https://api.mojang.com
+URL_USER: https://api.mojang.com/users/profiles/minecraft/{USERNAME}
+
+Result.name: Available
+    code: 204
+    code: 404
+
+Result.name: Taken
+    code: 200
+
+Result.name: Error
+    code: 400
+    code: 500
+
+Result.name: Rate_Limit
+    code: 429

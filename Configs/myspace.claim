@@ -1,0 +1,16 @@
+checker title: Myspace Username Checker
+URL: https://myspace.com
+URL_USER: https://myspace.com/{USERNAME}
+
+Result.name: Available
+    code: 404
+
+Result.name: Taken
+    code: 200
+
+Result.name: Error
+    code: 400
+    code: 500
+
+Result.name: Rate_Limit
+    code: 429

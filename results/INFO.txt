@@ -1,0 +1,9 @@
+Results will go here, in 2 seperate folders, 1 for username info, one for service info.
+
+e.g service;
+tiktok.txt
+telegram.txt
+
+e.g username;
+Mrbeast.txt
+Username.txt

@@ -1,0 +1,220 @@
+.---------------------------------------.
+|  ____ _       _                 _ _   |
+| / ___| | __ _(_)_ __ ___       (_| |_ |
+|| |   | |/ _` | | '_ ` _ \ _____| | __||
+|| |___| | (_| | | | | | | |_____| | |_ |
+| \____|_|\__,_|_|_| |_| |_|     |_|\__||
+'---------------------------------------'
+Aᴅᴠᴀɴᴄᴇᴅ Mᴜʟᴛɪ Sᴇʀᴠɪᴄᴇ Usᴇʀɴᴀᴍᴇ Vᴀʟɪᴅᴀᴛᴏʀ
+
+Mᴀᴅᴇ ʙʏ @newmepe ғᴏʀ Bʀᴇᴀᴄʜᴇᴅ Cʀᴀᴄᴋᴇᴅ ᴀɴᴅ Nɪɢɢᴇʀs To snipe some cool users (Fᴜᴄᴋ ᴘᴀᴛᴄʜᴇᴅ)
+
+Lᴏᴏᴋɪɴɢ ғᴏʀ ᴍᴏʀᴇ ᴍᴏᴅᴜʟᴇs? Jᴏɪɴ ᴛ.ᴍᴇ/Cʟᴀɪᴍ_ɪᴛ_ᴄʜᴇᴄᴋᴇʀ
+‎
+            ᴛʜɪs ɪs ᴍʏ ғɪʀsᴛ ᴛᴏᴏʟ ɪᴍ ʀᴇʟᴇᴀsɪɴɢ,
+                   sᴏ ɪᴛs ɴᴏᴛ ᴛʜᴇ ʙᴇsᴛ,
+                   ᴛʜᴇʀᴇ ᴡɪʟʟ ʙᴇ ᴇʀʀᴏʀs.
+
+
+
+
+How To Use
+
+Put the useranmes you want to check into usernames.txt
+
+------------------------------------------------------
+
+Each thread = +1 account to check at once,
+if you use 3 threads, it will check 3 useranmes on all services at once, and show 3 progress bars, 1 for each username.
+
+------------------------------------------------------
+
+This tool is designed so you can add onto it yourself, with your own checkers kinda like silver and open bullet. (All checkers follow same format)
+
+------------------------------------------------------
+
+Github And Roblox get rate limmited easily
+
+-------------------------------------------------------
+
+if you are braindread, to install and run the checker, run install.bat or install.py. You can install it manually by using Pip install <MODULE NAME> for all modules then running main.py
+
+-------------------------------------------------------
+
+When I add more modules, I will send them in my telegram channel, t.me/claim_it_checker
+
+-------------------------------------------------------
+
+Errors.txt has common error codes in the format code:info. the error code info will be added onto errors so skids understand it.
+
+-------------------------------------------------------
+
+proxy.txt does nothing now, but in the future if many people join my telegram it will be added
+
+-------------------------------------------------------
+
+log.txt has extra info about what is happening, if there is an error it can be helpfull
+
+-------------------------------------------------------
+
+Your Version of the validator is 1.0.0
+
+-------------------------------------------------------
+
+To make your own .claim config, it must start of with this
+
+checker title: Checker Title
+URL: https://url.url
+URL_USER: https://website.com/{USERNAME}
+
+
+after that, you need to have some result names, like Avaiable, Taken Error etc etc using, Result.name <RESULT NAME>
+
+then under it, add 4 spaces, then info about how the option is trigerd using the following arguments. 
+
+must_have:
+if_have:
+cant_have:
+must_have:
+code:
+if_redirects: true/false
+
+
+
+for if_have must_have and cant_have, you put plain text there that has to be on the page in <DIV>, like "User Not Found"
+
+
+If this is confusing, here is a more detaild tutorial made by AI
+
+===================================================================
+===================================================================
+===================================================================
+===================================================================
+===================================================================
+===================================================================
+===================================================================
+
+
+To create your own .claim config file for the username validator, follow this format. The file must be saved in the Configs/ directory with a .claim extension (e.g., x.claim) and use UTF-8 encoding.
+
+Basic Structure
+Every .claim file starts with these mandatory fields:
+
+text
+
+Copy
+checker title: <Checker Title>
+URL: <Base Website URL>
+URL_USER: <User-Specific URL with {USERNAME}>
+checker title: A descriptive name for the service (e.g., Twitter Username Validator).
+URL: The website’s base URL (e.g., https://x.com). Used for reference, not requests.
+URL_USER: The URL pattern for checking a username, with {USERNAME} as a placeholder (e.g., https://x.com/{USERNAME}). This is where the script sends requests.
+Rules:
+
+Use exactly one of each field.
+Start each line at the left margin (no indentation).
+Separate key and value with : (colon and space).
+Ensure {USERNAME} is in URL_USER for dynamic replacement.
+Result Definitions
+After the header, define possible outcomes using Result.name entries. Each represents a status like Available, Taken, Suspended, Error, or Rate_Limit.
+
+Format:
+
+text
+
+Copy
+Result.name: <Status Name>
+    <condition>: <value>
+    <condition>: <value>
+Result.name: The status to return if conditions match (e.g., Available, Taken). Case-sensitive, can be any string (e.g., Banned, Inactive).
+Indentation: Conditions under Result.name must be indented with exactly 4 spaces.
+Multiple Results: Include at least one Result.name. Common ones are Available, Taken, Error, and Rate_Limit. Custom names like Suspended are supported.
+Conditions
+Under each Result.name, specify conditions to trigger that result using these keys:
+
+must_have: Text that must appear in a <div> tag on the page. If absent, the result won’t match.
+if_have: Text that should appear anywhere in the page’s HTML. Optional; doesn’t fail the match if missing.
+cant_have: Text that must not appear in the page’s HTML. If present, the result won’t match.
+if_redirects: Whether the URL redirects (true or false). true means the final URL differs from URL_USER; false means it’s the same.
+code: An HTTP status code (e.g., 429 for rate limits, 404 for not found). Numeric, no quotes.
+Rules:
+
+Indent each condition with 4 spaces under its Result.name.
+Use one condition per line (e.g., must_have: User Not Found).
+Multiple conditions of the same type are allowed (e.g., two if_have lines).
+All conditions must be true for the Result.name to match:
+All must_have texts must be in <div> tags.
+All cant_have texts must be absent.
+if_have texts are checked but don’t fail the match if missing.
+if_redirects must match the redirect status.
+code must match the response’s status code.
+Text for must_have, if_have, and cant_have is case-insensitive and should match the website’s exact wording (e.g., This account doesn’t exist).
+For code, use integers (e.g., 429, not "429").
+if_redirects expects true or false (lowercase).
+Tips to Avoid Issues
+Verify Website Behavior: Before writing conditions, check the website:
+Visit URL_USER with a test username (e.g., https://x.com/test123).
+Note HTTP status codes (use browser developer tools or curl).
+Inspect the HTML for exact text in <div> tags (for must_have) or elsewhere (for if_have, cant_have).
+Check if the URL redirects (e.g., stays https://x.com/test123 or changes).
+Include Error: Define Result.name: Error with common error codes (e.g., 400, 404, 500) to catch unexpected responses.
+Use must_have for Key Indicators: For critical text (e.g., “Account suspended”), use must_have to ensure it’s required.
+Test Redirects: Many sites don’t redirect for taken or available accounts (e.g., X returns status 200 with no redirect), so if_redirects: false is often correct.
+Save as UTF-8: Use a text editor like Notepad and save with UTF-8 encoding (no BOM) to avoid parsing errors.
+Check Logs: If results are wrong (e.g., all Error), check log.txt for Matched or Failed messages to debug conditions.
+Example Config
+Here’s a working config for Twitter/X:
+
+text
+
+Copy
+checker title: Twitter Username Validator
+URL: https://x.com
+URL_USER: https://x.com/{USERNAME}
+
+Result.name: Available
+    must_have: This account doesn’t exist
+    if_redirects: false
+
+Result.name: Taken
+    cant_have: This account doesn’t exist
+    cant_have: Account suspended
+    if_redirects: false
+
+Result.name: Suspended
+    must_have: Account suspended
+    if_have: X suspends accounts that violate the X Rules
+
+Result.name: Error
+    code: 400
+    code: 404
+    code: 500
+
+Result.name: Rate_Limit
+    code: 429
+Explanation:
+
+Available: Triggers if “This account doesn’t exist” is in a <div> and no redirect occurs (e.g., https://x.com/nova123456789).
+Taken: Triggers for profiles without “This account doesn’t exist” or “Account suspended” and no redirect (e.g., https://x.com/elonmusk).
+Suspended: Triggers if “Account suspended” is in a <div> (e.g., https://x.com/suspendeduser).
+Error: Catches HTTP errors like 400, 404, 500.
+Rate_Limit: Matches status 429 for rate limits.
+Common Mistakes to Avoid
+Wrong Text: Using outdated or incorrect phrases (e.g., “User Not Found” instead of “This account doesn’t exist”).
+Bad Redirects: Setting if_redirects: true when the site doesn’t redirect (e.g., X profiles stay at https://x.com/{USERNAME}).
+Missing Error: Without an Error result, unmatched responses (e.g., status 200) show as Error with the status code.
+Incorrect Indentation: Use 4 spaces, not tabs or 2 spaces.
+No Conditions: A Result.name with no conditions will never match.
+
+
+
+===================================================================
+===================================================================
+===================================================================
+
+You can also make .py checkers if there isnt enough options, but im way to lazy to explain that.
+
+===================================================================
+===================================================================
+===================================================================
+

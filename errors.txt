@@ -1,0 +1,7 @@
+404:Not Found
+200:Ok
+305:Use Proxy
+400:Bad Request
+403:Forbidden
+429:Rate Limit
+500:Server Error
