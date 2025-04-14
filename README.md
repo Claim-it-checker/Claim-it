@@ -40,3 +40,31 @@ If you’re braindead follow these steps:
 ## Updates
 - New modules will be shared on our[Telegram Channel](https://t.me/claim_it_checker)
 Current version: 1.0.0
+
+
+
+
+
+
+# Make your own modules
+- To make your own .claim config, it must start of with this
+
+checker title: Checker Title
+URL: https://url.url
+URL_USER: https://website.com/{USERNAME}
+
+
+- after that, you need to have some result names, like Avaiable, Taken Error etc etc using, Result.name <RESULT NAME>
+
+- then under it, add 4 spaces, then info about how the option is trigerd using the following arguments. 
+
+** must_have:
+if_have:
+cant_have:
+must_have:
+code:
+if_redirects: true/false **
+
+
+
+- for if_have must_have and cant_have, you put plain text there that has to be on the page in <DIV>, like "User Not Found"
