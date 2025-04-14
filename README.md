@@ -58,12 +58,12 @@ URL_USER: https://website.com/{USERNAME}
 
 - then under it, add 4 spaces, then info about how the option is trigerd using the following arguments. 
 
-** must_have:
+must_have:
 if_have:
 cant_have:
 must_have:
 code:
-if_redirects: true/false **
+if_redirects: true/false 
 
 
 
