@@ -12,6 +12,24 @@ The **Advanced Multi-Service Username Validator** is a tool designed to check th
 
 ---
 
+## Current Modules
+
+**Modules:**
+- Dribble
+- Flickr
+- Github
+- Guns.lol
+- Minecraft
+- Myspace
+- Pastebin
+- Reddit
+- Roblox
+- Snapchat
+- Steam
+- Telegram
+- Vimeo
+
+
 ## How to Use
 
 1. **Add Usernames**:
