@@ -52,7 +52,9 @@ The **Advanced Multi-Service Username Validator** is a tool designed to check th
 If you’re braindead follow these steps:
 
 1. **Easy Install**:
-   - Run `install.bat` or `install.py` to set up the tool automatically.
+
+   - Use ```git clone https://github.com/Claim-it-checker/Claim-it.git``` or download the latest build from [releases](https://github.com/Claim-it-checker/Claim-it/releases/)
+   - Run  ```install.py``` to set up the tool automatically.
 
 
 ## Updates
