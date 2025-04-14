@@ -91,3 +91,20 @@ if_redirects: true/false
 
 
 - for if_have must_have and cant_have, you put plain text there that has to be on the page in <DIV>, like "User Not Found"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tags (IGNORE)
+
+dvanced Validator, Username Checker, Multi Service, Account Snipe, Social Media, Profile Scanner, Name Grabber, Availability Tool, Custom Config, Module Extender, Rate Limiter, Thread Control, Web Scraper, Cloud Sync, Proxy Support, API Integration, Stealth Mode, Auto Updater, Error Logger, Data Exporter, Bulk Checker, Smart Filter, Dark Theme, Cross Platform, User Interface, Real Time, Notification System, Analytics Dashboard, Queue Manager, Multi Language, Encryption Layer, Offline Mode, Voice Control, AI Predictor, Blockchain Verify, VR Support, Password Gen, Email Checker, Domain Scanner, Forum Snipe, Gaming Accounts, NFT Tracker, Dribble Checker, Flickr Checker, GitHub Checker, Guns Lol Checker, Minecraft Checker, Myspace Checker, Pastebin Checker, Reddit Checker, Roblox Checker, Snapchat Checker, Steam Checker, Telegram Checker, Vimeo Checker, TikTok Scanner, Instagram Probe, Twitter Snipe, LinkedIn Tool, Discord Bot, Spotify Check, SoundCloud Grab, Etsy Validator, eBay Snipe, Amazon Accounts, Netflix Tester, Hulu Scanner, Browser Plugin, Mobile App, Desktop Client, Linux Support, Mac Compatible, Windows Tool, Open Source, Community Driven, Hackathon Project, Cyber Toolkit, Username Hunt, Availability Radar, Snipe Master, Config Wizard, Module Maker, Rate Optimizer, Thread Balancer, Proxy Rotator, Captcha Solver, Geo Targeting, Data Cleaner, Report Generator, Batch Processor, Cloud Backup, Secure Scan, Privacy First, Silent Mode, Auto Retry, Dynamic Config, Smart Queue, User Friendly, Beta Release, Version Future, Telegram Hub, Breached Cracked, Newmepe Tool, DIY Checker, Plain Text, Error Handler, Redirect Check, HTTP Codes, Status Monitor, Tool Expande
