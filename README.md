@@ -1,6 +1,6 @@
 # Advanced Multi-Service Username Validator
 
-**Made by [@newmepe](https://t.me/claim_it_checker) for Breached, Cracked, and folks looking to snag cool usernames.**
+**Made by [@newmepe](https://t.me/claim_it_checker) for Breached And Cracked, and niggas looking to snipe cool usernames.**
 
 **Looking for more modules? Join our [Telegram channel](https://t.me/claim_it_checker).**
 
