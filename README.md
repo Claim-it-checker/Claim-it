@@ -58,11 +58,16 @@ URL_USER: https://website.com/{USERNAME}
 
 - then under it, add 4 spaces, then info about how the option is trigerd using the following arguments. 
 
-must_have:
-if_have:
-cant_have:
-must_have:
-code:
+must_have: (the site must have this plain text)
+
+if_have: (If the site has this plain text)
+
+cant_have: (Plain text the site cant have)
+
+must_have: (Plain text website must have)
+
+code: (ERROR CODE. e.g 200)
+
 if_redirects: true/false 
 
 
