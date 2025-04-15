@@ -28,6 +28,7 @@ The **Advanced Multi-Service Username Validator** is a tool designed to check th
 - Steam
 - Telegram
 - Vimeo
+- Cracked.sh
 
 
 ## How to Use
