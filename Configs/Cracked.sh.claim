@@ -1,0 +1,18 @@
+checker title: Cracked.sh username validator
+URL: https://cracked.sh
+URL_USER: https://cracked.sh/{USERNAME}
+
+Result.name: Available
+    must_have: The member you specified is either invalid or doesn't exist
+
+Result.name: Taken
+    cant_have: The member you specified is either invalid or doesn't exist
+    if_have: Reputation
+    if_have: Cracked.io Member
+    code: 404
+
+Result.name: Error
+    code: 403
+
+Result.name: Rate_Limit
+    code: 429
