@@ -100,7 +100,8 @@ if_redirects: true/false
 
 
 
-
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/Claim-it-checker/Claim-it](https://starchart.cc/Claim-it-checker/Claim-it)
 
 
 
